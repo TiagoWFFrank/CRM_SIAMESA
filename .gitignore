@@ -1,0 +1,17 @@
+# deps / vendors
+vendor/
+**/vendor/
+
+# 3rd party vendors dentro do app (seu caso)
+app/ThirdParty/**/vendor/
+
+# env / secrets
+.env
+**/.env
+*.key
+*.pem
+
+# logs/cache
+writable/*
+!writable/.htaccess
+*.log
